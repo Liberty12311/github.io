@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    height: 100%;
+    background: url(tnya.png) 100% 100% no-repeat;
+    background-size: cover;
+    background-position: 1px 1px;
+ }
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-text {
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+  	background-image: url('bg-text.jpg');
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+span:hover {	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+  	background-image: url('red.jpg');
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-size: cover;}
+
+#container > div {
+    display: none;
+  }
+
+.btn {
+      background-color: #555555; /* Green */
+      border: none;
+      color: white;
+      padding: 4px 4px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 100%;
+      height: 5%
+  }
+
+
+div {
+  font-size: 25px;
+}
+
+.bebe {
+  position: relative;
+  top:20px;
+}
+
+.bebe2 {
+  position: relative;
+  top:3px;
+}
+
+#container > .active {
+    display: block;
+    height: 40%;
+    width: 60%;
+    float: right;
+    margin: 20px;
+  }
+
+img {
+  height: 30px;
+}
+
+.header {
+    height: 10%;
+    font-size: 150%;
+  }
+
+P {
+     text-align: center;
+     font-family: 'Press Start 2P', cursive;
+     font-size: 150%;
+    }
+
+  @media (max-width: 1100px) {
+
+body {
+      background: url(123);
+	    background-color: #ffffff;
+}
+
+#container > .active {
+    display: block;
+    height: 40%;
+    width: 90%;
+    float: right;
+    margin: 20px;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  flex: auto;
+}
+
+.block {
+  position: relative;
+  top:30px;
+  align:center;
+}
